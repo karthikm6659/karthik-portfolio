@@ -1,0 +1,149 @@
+/* Services.css */
+.skills-Education {
+background-color: #24263B;
+  padding: 60px 20px;
+}
+
+.skills {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.skills > h2 {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.skills > span {
+  color: #ff4a57;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1.2;
+}
+
+.skills > p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 0px 102px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+}
+
+.skills > p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: red;
+  margin: 30px auto 0;
+}
+
+
+
+
+/* Part2 */
+
+.skills_prt2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.skills_prt2 li {
+    max-width: 250px;
+    border-radius: 15px;
+    border-radius: 20px;
+    background-color: #1f2235;
+     padding: 20px;
+    margin-right: 34px;
+    margin-bottom: 37px;
+}
+
+/* for animations start */
+
+/* newly added for animations */
+.skills_prt2 li {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 0.8s ease forwards;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.skills_prt2 li:nth-child(1) { animation-delay: 0.1s; }
+.skills_prt2 li:nth-child(2) { animation-delay: 0.2s; }
+.skills_prt2 li:nth-child(3) { animation-delay: 0.3s; }
+.skills_prt2 li:nth-child(4) { animation-delay: 0.4s; }
+.skills_prt2 li:nth-child(5) { animation-delay: 0.5s; }
+.skills_prt2 li:nth-child(6) { animation-delay: 0.6s; }
+.skills_prt2 li:nth-child(7) { animation-delay: 0.7s; }
+.skills_prt2 li:nth-child(8) { animation-delay: 0.8s; }
+
+
+/* Zoom on hover */
+.skills_prt2 li:hover {
+   transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.skills_prt2 li .imgs img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+
+.skills_prt2 li:hover .imgs img {
+  transform: scale(1.1);
+  filter: brightness(1.2) contrast(1.2);
+}
+
+
+/* Animations End */
+
+.skills li img{
+    object-fit:cover;
+}
+.skills li img,
+.skills li h3 {
+    margin-bottom: 22px;
+}
+
+.skills li h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+
+
+
+/* Animations */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skills_prt2 li {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}

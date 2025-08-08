@@ -1,0 +1,162 @@
+.contact-section {
+  background-color: #23263A;
+  padding: 60px 20px;
+}
+
+.contact {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.contact > h2 {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.contact > span {
+  color: #ff4a57;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1.2;
+}
+
+.contact > p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 0px 102px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+}
+
+.contact > p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: red;
+  margin: 30px auto 0;
+}
+
+
+
+.contact_prt2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 60px;
+    text-align: left;
+}
+
+
+.contact_prt2 li {
+    max-width: 350px;
+    border-radius: 10px;
+    background-color: #1f2235;
+}
+
+.contact_prt2 li {
+    padding: 20px;
+    margin-right: 34px;
+    margin-bottom: 37px;
+}
+
+.contact_prt2 li img{
+    object-fit:cover;
+}
+.contact_prt2 li img,
+.contact_prt2 li span {
+    margin-bottom: 22px;
+}
+
+.contact_prt2 li a{
+    text-decoration: none;
+}
+.contact_prt2 li span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.contact_prt2 li p {
+    width: 266px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C1ADAA;
+}
+
+.contact_prt2 li p a {
+    width: 267px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C1ADAA;
+}
+
+.contact_prt2 li p a:hover{
+    color: orange;
+}
+
+
+.forms{
+    padding: 0px 80px;
+}
+
+.form-inputs{
+    width: 100%;
+    color: #fff;
+    background-color: #1f2235;
+    border-radius: 10px;
+    padding:15px;
+    border: 2px solid #1f2235;
+}
+.form-inputs::placeholder{
+    color: #DFDFBF;
+    padding-right:20px;
+
+}
+
+.form-input-txt-area{
+    width: 100%;
+    color: #fff;
+    background-color: #1f2235;
+    border-radius: 10px;
+    padding:15px;
+    border: 2px solid #1f2235;
+}
+
+.form-input-txt-area::placeholder{
+    color: #DFDFBF;
+    padding-right: 20px;
+}
+
+.form-sub{
+    margin-top: 40px;
+}
+
+.form-msg{
+    margin-top: 25px;
+}
+
+.send-msg-button>button{
+    color: #fff;
+    background-color: #ff4a57;
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    padding: 10px;
+    width: 220px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.send-msg-button>button:hover{
+    color: #a80812;
+    background-color: #5ea205;
+}

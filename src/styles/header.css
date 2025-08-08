@@ -1,0 +1,17 @@
+.bg-color{
+    background-color: #1F2235;
+}
+.navbar-brand{
+    background: #1F2235;
+    
+    
+}
+.nav-item>.nav-link{
+    color: #FFFFFF;
+}
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+.navbar-toggler{
+    border: none;
+}

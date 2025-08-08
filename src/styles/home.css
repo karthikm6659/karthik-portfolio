@@ -1,0 +1,61 @@
+.banner-section{
+    background-color: #24263B;
+}
+
+.images a img {
+  filter: invert(100%);
+}
+
+.images a img:hover {
+  filter: invert(42%) sepia(94%) saturate(747%) hue-rotate(316deg) brightness(103%) contrast(101%);
+  cursor: pointer;
+}
+
+
+h1{
+    color: #fff;
+}
+p{
+    font-weight: 300;
+    font-size: 27px;
+    color: #f5ebeb;
+    line-height: 40px;
+}
+.resume-button a >button{
+    border-radius: 50px;
+    /* padding: 10px; */
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FF4A57;
+    background-color: #23263A;
+    color: #fff;
+}
+.resume-button a >button:hover{
+    background-color: #FF4A57;
+    color: #fff;
+}
+
+.resume-button a > button > img{
+     filter: brightness(0) saturate(100%) invert(45%) sepia(97%) saturate(2941%) hue-rotate(330deg) brightness(103%) contrast(101%);
+  transition: filter 0.3s ease;
+}
+
+.resume-button a > button:hover img {
+  filter: brightness(0) invert(1); /* makes image white */
+  transition: filter 0.3s ease;
+}
+
+
+
+.my-img{
+    float: right;
+}
+.my-img>img{
+    width: 500px;
+}
+.cont-part{
+    padding-top: 200px;
+}
+.img-part{
+    padding-top: 50px;
+}

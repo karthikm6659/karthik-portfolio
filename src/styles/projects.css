@@ -1,0 +1,110 @@
+.projects-sec{
+    padding-top: 100px;
+    position: relative;
+    background-color: #1f2235;
+    padding: 60px 20px;
+}
+
+.projects {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+.projects > span {
+  color: #ff4a57;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1.2;
+}
+
+.projects > p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 0px 102px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+}
+
+.projects > p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: red;
+  margin: 30px auto 0;
+}
+
+
+.project-heading {
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images1{
+   width: 100%;
+
+   /* new added */
+   height: auto;
+   object-fit: cover;
+   border-radius: 8px;
+   transition: transform 0.3s ease;
+   /* new end */
+}
+.project-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #e1d4d4;
+}
+
+.button-adapt2 {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.company-button {
+    background-color: #1C1C1C;
+    width: 134px;
+    height: 42px;
+    top: 744px;
+    left: 893px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.company-button:hover {
+    background-color: #0037ff;
+    color: rgb(255, 255, 255);
+}
+
+
+/* new added */
+
+.images1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+
+
+/* Responsive heading for mobile */
+@media (max-width: 768px) {
+  .company-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}

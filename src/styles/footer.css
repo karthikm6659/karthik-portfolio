@@ -1,0 +1,41 @@
+.footer-section {
+  background-color: #1f2235;
+  padding: 60px 20px;
+}
+
+.footer-contain {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.footer-contain > h2 {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.footer-contain > p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 0px 21px;
+  margin: 25px auto 0px;
+  max-width: 800px;
+}
+
+.image-contain{
+    margin: 35px 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-text{
+    padding-bottom: 30px;
+    background-color: #1f2235;
+    text-align: center;
+    color: #dfdfdf;
+}
+.copyright-text>a{
+    text-decoration: none;
+    color: #E94654;
+}
