@@ -6,7 +6,7 @@ import twitter from "../assets/square-x-twitter-brands.svg"
 import pinterest from "../assets/pinterest-brands.svg"
 import instagram from "../assets/square-instagram-brands.svg"
 import karthik from "../assets/karthik.png"
-import resume from "../assets/KARTHIK M.Pdf"
+import resume from "../assets/KARTHIK_resume.pdf"
 import "../styles/home.css"
 import "../styles/responsive.css"
 import About from './About';
